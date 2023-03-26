@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql:true
+    show-sql: true
+
+
+  datasource: #oracle
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/XE
+    username: phamlong0918
+    password: phamlong0918
+
